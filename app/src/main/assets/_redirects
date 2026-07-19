@@ -1,0 +1,16 @@
+/sitemap.xml       /sitemap.xml       200
+/robots.txt        /robots.txt        200
+
+# Route
+/                  /index.html        200
+/about             /index.html        200
+/team              /index.html        200
+/privacy           /index.html        200
+/terms             /index.html        200
+/contact           /index.html        200
+/blog              /index.html        200
+/blog/* /index.html        200
+/admin/* /index.html        200
+
+# HTTP 404
+/* /index.html        404
